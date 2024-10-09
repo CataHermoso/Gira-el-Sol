@@ -11,7 +11,7 @@ import SwiftUI
 struct Gira_El_SolApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Inicio()
         }
     }
 }
