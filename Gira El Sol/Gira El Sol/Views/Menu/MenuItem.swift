@@ -10,4 +10,5 @@ import Foundation
 struct MenuItem {
     let text: String
     let symbol: String
+    let destinationView: String
 }

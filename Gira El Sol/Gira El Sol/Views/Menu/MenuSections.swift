@@ -10,9 +10,10 @@ import SwiftUI
 struct MenuSections: View {
     @Binding var text: String
     @Binding var symbol: String
+    @Binding var destinationView: String
     
     var body: some View {
-        VStack {
+        NavigationLink(destination: Text(destinationView)) {
             HStack {
                 Image(systemName: symbol)
                     .frame(width: 30, alignment: .trailing)
@@ -24,18 +25,19 @@ struct MenuSections: View {
             .foregroundColor(Color.white)
             .padding(15)
             .frame(maxWidth: .infinity, alignment: .leading)
+            .background(Color.green) //should not have background color, or it has to be the same as the menu's background
         }
-        .background(Color.green) //should not have background color, or it has to be the same as the menu's background
     }
 }
 
-struct ContentView: View {
+struct MenuSectionStateView: View {
     @State private var menuText = "Shop"
     @State private var menuSymbol = "bag"
+    @State private var menuDestinationView = "Shop"
 
     var body: some View {
         VStack {
-            MenuSections(text: $menuText, symbol: $menuSymbol)
+            MenuSections(text: $menuText, symbol: $menuSymbol, destinationView: $menuDestinationView)
             Spacer()
         }
         .padding()
@@ -43,5 +45,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    MenuSectionStateView()
 }

@@ -8,17 +8,31 @@
 import SwiftUI
 
 struct TopBar: View {
+    @Binding var symbol: String
+    
     var body: some View {
         HStack {
             Image(systemName: "leaf.fill")
                 .foregroundStyle(Color(.green))
+                .padding()
             Text("GIRA EL SOL")
-            Image(systemName: "bell") //change it to bell.badge when a notification comes through
-            //menu symbol
+                .font(.headline)
+            Spacer()
+            Image(systemName: symbol) //change it to bell.badge when a notification comes through
+            Image(systemName: "line.3.horizontal")
+                .padding()
         }
     }
 }
 
+struct TopBarBindingView: View {
+    @State private var topBarSymbol = "bell"
+    
+    var body: some View {
+        TopBar(symbol: $topBarSymbol)
+    }
+}
+
 #Preview {
-    TopBar()
+    TopBarBindingView()
 }
