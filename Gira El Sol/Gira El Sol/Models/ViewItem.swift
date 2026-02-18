@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
 
-struct MenuItem {
+struct ViewItem {
     let text: String
     let symbol: String
-    let destinationView: String
+    let destinationView: AnyView
 }

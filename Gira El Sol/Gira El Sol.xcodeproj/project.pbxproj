@@ -8,19 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		2F4D19C32CB49A310085DC4E /* Gira_El_SolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D19C22CB49A310085DC4E /* Gira_El_SolApp.swift */; };
-		2F4D19C52CB49A310085DC4E /* Inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D19C42CB49A310085DC4E /* Inicio.swift */; };
+		2F4D19C52CB49A310085DC4E /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D19C42CB49A310085DC4E /* SplashScreenView.swift */; };
 		2F4D19C72CB49A340085DC4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D19C62CB49A340085DC4E /* Assets.xcassets */; };
 		2F4D19CA2CB49A340085DC4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D19C92CB49A340085DC4E /* Preview Assets.xcassets */; };
 		2F4D19D42CB49A340085DC4E /* Gira_El_SolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D19D32CB49A340085DC4E /* Gira_El_SolTests.swift */; };
 		2F4D19DE2CB49A340085DC4E /* Gira_El_SolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D19DD2CB49A340085DC4E /* Gira_El_SolUITests.swift */; };
 		2F4D19E02CB49A340085DC4E /* Gira_El_SolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D19DF2CB49A340085DC4E /* Gira_El_SolUITestsLaunchTests.swift */; };
-		2F784BF42CB6F68A00FE962B /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F784BF32CB6F68A00FE962B /* BottomBar.swift */; };
+		2F784BF42CB6F68A00FE962B /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F784BF32CB6F68A00FE962B /* Main.swift */; };
 		2F784BF62CB6F71C00FE962B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F784BF52CB6F71C00FE962B /* SearchBar.swift */; };
 		2F784BF92CB709B500FE962B /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F784BF82CB709B500FE962B /* TopBar.swift */; };
 		2F784BFC2CB70B8F00FE962B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F784BFB2CB70B8F00FE962B /* Menu.swift */; };
-		2F784BFE2CB70BCD00FE962B /* MenuSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F784BFD2CB70BCD00FE962B /* MenuSections.swift */; };
-		2F784C002CB710EA00FE962B /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F784BFF2CB710EA00FE962B /* MenuItem.swift */; };
+		2F784BFE2CB70BCD00FE962B /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F784BFD2CB70BCD00FE962B /* MenuSection.swift */; };
+		2F784C002CB710EA00FE962B /* ViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F784BFF2CB710EA00FE962B /* ViewItem.swift */; };
 		2F784C092CB8366C00FE962B /* EmailSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F784C082CB8366C00FE962B /* EmailSection.swift */; };
+		2F7C970A2F4548CE00491BEF /* PlantaGroupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C97092F4548CE00491BEF /* PlantaGroupItem.swift */; };
+		2F7C970C2F4549A800491BEF /* PlantaGroupSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C970B2F4549A800491BEF /* PlantaGroupSection.swift */; };
+		2F7C970E2F45543B00491BEF /* MisPlantas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C970D2F45543B00491BEF /* MisPlantas.swift */; };
+		2F7C97102F4624D700491BEF /* CamaraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C970F2F4624D700491BEF /* CamaraView.swift */; };
+		2F7C97122F46284C00491BEF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C97112F46284C00491BEF /* ImagePicker.swift */; };
+		2F97FF2F2D4816A500E58E7B /* MiPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F97FF2E2D4816A500E58E7B /* MiPerfil.swift */; };
+		2FA9B28D2CB9ED0700BD0814 /* MisJardines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9B28C2CB9ED0700BD0814 /* MisJardines.swift */; };
+		2FA9B28F2CB9ED1100BD0814 /* JardinGroupSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9B28E2CB9ED1100BD0814 /* JardinGroupSection.swift */; };
+		2FA9B2912CB9ED1C00BD0814 /* JardinGroupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9B2902CB9ED1C00BD0814 /* JardinGroupItem.swift */; };
+		2FA9B2932CB9F57100BD0814 /* UIEmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9B2922CB9F57100BD0814 /* UIEmojiTextField.swift */; };
+		2FD99C372CBC64D600E7404B /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD99C362CBC64D600E7404B /* BottomBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +54,7 @@
 /* Begin PBXFileReference section */
 		2F4D19BF2CB49A310085DC4E /* Gira El Sol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gira El Sol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4D19C22CB49A310085DC4E /* Gira_El_SolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gira_El_SolApp.swift; sourceTree = "<group>"; };
-		2F4D19C42CB49A310085DC4E /* Inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inicio.swift; sourceTree = "<group>"; };
+		2F4D19C42CB49A310085DC4E /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		2F4D19C62CB49A340085DC4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F4D19C92CB49A340085DC4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F4D19CF2CB49A340085DC4E /* Gira El SolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gira El SolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,13 +62,24 @@
 		2F4D19D92CB49A340085DC4E /* Gira El SolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gira El SolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4D19DD2CB49A340085DC4E /* Gira_El_SolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gira_El_SolUITests.swift; sourceTree = "<group>"; };
 		2F4D19DF2CB49A340085DC4E /* Gira_El_SolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gira_El_SolUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2F784BF32CB6F68A00FE962B /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		2F784BF32CB6F68A00FE962B /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		2F784BF52CB6F71C00FE962B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		2F784BF82CB709B500FE962B /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		2F784BFB2CB70B8F00FE962B /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
-		2F784BFD2CB70BCD00FE962B /* MenuSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSections.swift; sourceTree = "<group>"; };
-		2F784BFF2CB710EA00FE962B /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		2F784BFD2CB70BCD00FE962B /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		2F784BFF2CB710EA00FE962B /* ViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewItem.swift; sourceTree = "<group>"; };
 		2F784C082CB8366C00FE962B /* EmailSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSection.swift; sourceTree = "<group>"; };
+		2F7C97092F4548CE00491BEF /* PlantaGroupItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantaGroupItem.swift; sourceTree = "<group>"; };
+		2F7C970B2F4549A800491BEF /* PlantaGroupSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantaGroupSection.swift; sourceTree = "<group>"; };
+		2F7C970D2F45543B00491BEF /* MisPlantas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisPlantas.swift; sourceTree = "<group>"; };
+		2F7C970F2F4624D700491BEF /* CamaraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaraView.swift; sourceTree = "<group>"; };
+		2F7C97112F46284C00491BEF /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		2F97FF2E2D4816A500E58E7B /* MiPerfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiPerfil.swift; sourceTree = "<group>"; };
+		2FA9B28C2CB9ED0700BD0814 /* MisJardines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisJardines.swift; sourceTree = "<group>"; };
+		2FA9B28E2CB9ED1100BD0814 /* JardinGroupSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JardinGroupSection.swift; sourceTree = "<group>"; };
+		2FA9B2902CB9ED1C00BD0814 /* JardinGroupItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JardinGroupItem.swift; sourceTree = "<group>"; };
+		2FA9B2922CB9F57100BD0814 /* UIEmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEmojiTextField.swift; sourceTree = "<group>"; };
+		2FD99C362CBC64D600E7404B /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +130,11 @@
 		2F4D19C12CB49A310085DC4E /* Gira El Sol */ = {
 			isa = PBXGroup;
 			children = (
-				2F784BF22CB6F4E300FE962B /* Classes */,
+				2F97FF2D2D480F1900E58E7B /* ModelViews */,
+				2F97FF2C2D480E9A00E58E7B /* Models */,
 				2F784BF12CB6F4DA00FE962B /* Views */,
 				2F4D19C22CB49A310085DC4E /* Gira_El_SolApp.swift */,
+				2F4D19C42CB49A310085DC4E /* SplashScreenView.swift */,
 				2F4D19C62CB49A340085DC4E /* Assets.xcassets */,
 				2F4D19C82CB49A340085DC4E /* Preview Content */,
 			);
@@ -145,25 +169,21 @@
 		2F784BF12CB6F4DA00FE962B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2F784BFA2CB70B7900FE962B /* Menu */,
-				2F784BF72CB6F72000FE962B /* Inicio */,
+				2FA9B28C2CB9ED0700BD0814 /* MisJardines.swift */,
+				2F784BFB2CB70B8F00FE962B /* Menu.swift */,
+				2F784BF32CB6F68A00FE962B /* Main.swift */,
+				2F97FF2E2D4816A500E58E7B /* MiPerfil.swift */,
+				2F7C970D2F45543B00491BEF /* MisPlantas.swift */,
+				2F7C970F2F4624D700491BEF /* CamaraView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		2F784BF22CB6F4E300FE962B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		2F784BF72CB6F72000FE962B /* Inicio */ = {
 			isa = PBXGroup;
 			children = (
-				2F784BF32CB6F68A00FE962B /* BottomBar.swift */,
 				2F784BF52CB6F71C00FE962B /* SearchBar.swift */,
-				2F4D19C42CB49A310085DC4E /* Inicio.swift */,
+				2FD99C362CBC64D600E7404B /* BottomBar.swift */,
 				2F784BF82CB709B500FE962B /* TopBar.swift */,
 			);
 			path = Inicio;
@@ -172,12 +192,41 @@
 		2F784BFA2CB70B7900FE962B /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				2F784BFB2CB70B8F00FE962B /* Menu.swift */,
 				2F784C082CB8366C00FE962B /* EmailSection.swift */,
-				2F784BFD2CB70BCD00FE962B /* MenuSections.swift */,
-				2F784BFF2CB710EA00FE962B /* MenuItem.swift */,
+				2F784BFD2CB70BCD00FE962B /* MenuSection.swift */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		2F97FF2C2D480E9A00E58E7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F784BFF2CB710EA00FE962B /* ViewItem.swift */,
+				2FA9B2902CB9ED1C00BD0814 /* JardinGroupItem.swift */,
+				2F7C97092F4548CE00491BEF /* PlantaGroupItem.swift */,
+				2F7C97112F46284C00491BEF /* ImagePicker.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F97FF2D2D480F1900E58E7B /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+				2F784BF72CB6F72000FE962B /* Inicio */,
+				2F784BFA2CB70B7900FE962B /* Menu */,
+				2FA9B28B2CB9ECF800BD0814 /* MiJardin */,
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		2FA9B28B2CB9ECF800BD0814 /* MiJardin */ = {
+			isa = PBXGroup;
+			children = (
+				2FA9B28E2CB9ED1100BD0814 /* JardinGroupSection.swift */,
+				2FA9B2922CB9F57100BD0814 /* UIEmojiTextField.swift */,
+				2F7C970B2F4549A800491BEF /* PlantaGroupSection.swift */,
+			);
+			path = MiJardin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,15 +359,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA9B28F2CB9ED1100BD0814 /* JardinGroupSection.swift in Sources */,
+				2F97FF2F2D4816A500E58E7B /* MiPerfil.swift in Sources */,
 				2F784BFC2CB70B8F00FE962B /* Menu.swift in Sources */,
-				2F784BF42CB6F68A00FE962B /* BottomBar.swift in Sources */,
+				2FA9B2912CB9ED1C00BD0814 /* JardinGroupItem.swift in Sources */,
+				2F7C970C2F4549A800491BEF /* PlantaGroupSection.swift in Sources */,
+				2F784BF42CB6F68A00FE962B /* Main.swift in Sources */,
+				2F7C97102F4624D700491BEF /* CamaraView.swift in Sources */,
 				2F784C092CB8366C00FE962B /* EmailSection.swift in Sources */,
 				2F784BF62CB6F71C00FE962B /* SearchBar.swift in Sources */,
 				2F784BF92CB709B500FE962B /* TopBar.swift in Sources */,
-				2F4D19C52CB49A310085DC4E /* Inicio.swift in Sources */,
-				2F784C002CB710EA00FE962B /* MenuItem.swift in Sources */,
+				2FA9B28D2CB9ED0700BD0814 /* MisJardines.swift in Sources */,
+				2F4D19C52CB49A310085DC4E /* SplashScreenView.swift in Sources */,
+				2F784C002CB710EA00FE962B /* ViewItem.swift in Sources */,
 				2F4D19C32CB49A310085DC4E /* Gira_El_SolApp.swift in Sources */,
-				2F784BFE2CB70BCD00FE962B /* MenuSections.swift in Sources */,
+				2F7C970E2F45543B00491BEF /* MisPlantas.swift in Sources */,
+				2F7C970A2F4548CE00491BEF /* PlantaGroupItem.swift in Sources */,
+				2FD99C372CBC64D600E7404B /* BottomBar.swift in Sources */,
+				2F7C97122F46284C00491BEF /* ImagePicker.swift in Sources */,
+				2FA9B2932CB9F57100BD0814 /* UIEmojiTextField.swift in Sources */,
+				2F784BFE2CB70BCD00FE962B /* MenuSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,9 +545,11 @@
 				DEVELOPMENT_TEAM = KPHY76YJ69;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gira-El-Sol-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Necesitamos acceder a la cámara para escanear tu planta.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Necesitamos acceder a tu galeria para seleccionar una foto.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -514,9 +576,11 @@
 				DEVELOPMENT_TEAM = KPHY76YJ69;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gira-El-Sol-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Necesitamos acceder a la cámara para escanear tu planta.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Necesitamos acceder a tu galeria para seleccionar una foto.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

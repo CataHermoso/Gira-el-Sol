@@ -47,4 +47,5 @@ struct EmailSectionView: View {
 
 #Preview {
     EmailSectionView()
+        .background(.green)
 }

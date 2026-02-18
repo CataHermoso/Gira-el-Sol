@@ -7,25 +7,24 @@
 
 import SwiftUI
 
-struct MenuSections: View {
-    @Binding var text: String
-    @Binding var symbol: String
-    @Binding var destinationView: String
+struct MenuSection: View {
+    var text: String
+    var symbol: String
+    var destinationView: AnyView
     
     var body: some View {
-        NavigationLink(destination: Text(destinationView)) {
+        NavigationLink(destination: destinationView) {
             HStack {
                 Image(systemName: symbol)
                     .frame(width: 30, alignment: .trailing)
                 Rectangle()
+                    .fill(.clear)
                     .frame(width: 10, height: 5)
-                    .foregroundStyle(.clear)
                 Text(text)
             }
             .foregroundColor(Color.white)
             .padding(15)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Color.green) //should not have background color, or it has to be the same as the menu's background
         }
     }
 }
@@ -33,14 +32,15 @@ struct MenuSections: View {
 struct MenuSectionStateView: View {
     @State private var menuText = "Shop"
     @State private var menuSymbol = "bag"
-    @State private var menuDestinationView = "Shop"
+    @State private var menuDestinationView = AnyView(MisJardines())
 
     var body: some View {
         VStack {
-            MenuSections(text: $menuText, symbol: $menuSymbol, destinationView: $menuDestinationView)
+            MenuSection(text: menuText, symbol: menuSymbol, destinationView: menuDestinationView)
             Spacer()
         }
         .padding()
+        .background(.green)
     }
 }
 
